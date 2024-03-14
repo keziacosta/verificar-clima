@@ -1,0 +1,99 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+}
+
+body {
+    background: #F0F8FF;
+}
+
+.container {
+    max-width: 470px;
+    background: #808080;
+    color: #fff;
+    margin: 80px auto 0;
+    border-radius: 20px;
+    padding: 40px 35px;
+}
+
+.busca {
+    display: flex;
+    width: 100%;
+    align-items: center;
+    justify-content: space-between;
+}
+
+.busca input{
+    height: 50px;
+    width: 80%;
+    border-radius: 20px;
+    outline: none;
+    border: none;
+    font-size: 20px;
+    padding: 20px;
+    color: #666;
+}
+
+.busca button {
+    height: 50px;
+    padding: 20px;
+    border-radius: 50%;
+    cursor: pointer;
+    border: none;
+    color: #555;
+}
+
+.erro {
+    margin: 10px 10px;
+    font-size: 13px;
+    color: #f00;
+    display: none;
+}
+
+.tempo{
+    text-align: center;
+    display: none;
+}
+
+.tempo img {
+    width: 180px;
+    margin-top: 20px;
+}
+
+.tempo h1 {
+    font-size: 70px;
+}
+
+.tempo h2{
+    font-size: 40px;
+}
+
+.detalhes {
+    display: flex;
+    margin-top: 20px;
+    align-items: center;
+    justify-content: space-between;
+    padding: 0 20px;
+}
+
+.col {
+    display: flex;
+    align-items: center;
+    text-align: left;
+}
+
+.col img{
+    width: 40px;
+    margin-right: 10px;
+}
+
+.humidade, .vento{
+    font-size: 25px;
+    margin-top: 15px;
+}
+
+p {
+    font-size: 13px;
+}
